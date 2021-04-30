@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ultra&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main">
+        <div class="calc">
+            <h1>Calculator Using HTML CSS & JS</h1>
+            <div class="disp">
+                <input id="display" placeholder="0" type="text" disabled name="" id="">
+            </div>
+            <div class="btn">
+                <button onclick="getNum(1)">1</button>
+                <button onclick="getNum(2)">2</button>
+                <button onclick="getNum(3)">3</button>
+                <button onclick="getNum(4)">4</button>
+                <button onclick="getNum(5)">5</button>
+                <button onclick="getNum(6)">6</button>
+                <button onclick="getNum(7)">7</button>
+                <button onclick="getNum(8)">8</button>
+                <button onclick="getNum(9)">9</button>
+                <button onclick="getNum(0)">0</button>
+                <button onclick="getNum('+')">+</button>
+                <button onclick="getNum('-')">-</button>
+                <button onclick="getNum('*')">*</button>
+                <button onclick="getNum('/')">/</button>
+                <button onclick="calculateNumber()">=</button>
+                <button onclick="clearValue()">C</button>
+            </div>
+        </div>
+    </div>
+<script src="app.js"></script>
+</body>
+</html>

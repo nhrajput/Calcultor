@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+background: rgb(218, 174, 226);}
+.main{
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+}
+.calc{
+    width: 400px;
+    margin: 100px auto;
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+    border: 2px solid darkgreen;
+}
+.calc h1{
+    font-family: 'Ultra', serif;
+    font-weight: lighter;
+    color: rebeccapurple;
+}
+.disp{
+    padding: 15px;
+}
+.disp input{
+    width: 320px;
+    padding: 4px;
+    margin: 5px 3px;
+    border: none;
+    color: white;
+    background: cyan;
+}
+.btn button{
+    width: 100px;
+    padding: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color: teal;
+    border: none;
+    margin: 5px;
+}
